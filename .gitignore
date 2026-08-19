@@ -1,2 +1,47 @@
+# Internal tooling (NOT part of the website)
+tool-results/
+download/
+upload/
+worklog.md
 skills/
+agent-ctx/
+
+# Secrets
+.env
+.env.local
+
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Vite cache
+.vite/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# TypeScript
+*.tsbuildinfo
